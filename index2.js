@@ -6,9 +6,9 @@ class SerVivo {
 
 class Persona extends SerVivo {
     caminar() {
-        console.log('Ahora esta caminando: ' + this.nombre);
+        console.log(`Ahora esta caminando: ${this.nombre}`);
     }
 }
 
-const persona = new Persona('Sebastián');
+const persona = new Persona('Juanito');
 persona.caminar()
